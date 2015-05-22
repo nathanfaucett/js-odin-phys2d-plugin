@@ -1,0 +1,29 @@
+{
+  "name": "odin-phys2d-plugin",
+  "version": "0.0.1",
+  "description": "phys2d plugin for the odin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nathanfaucett/odin-phys2d-plugin.git"
+  },
+  "main": "src/index.js",
+  "keywords": [
+    "odin-phys2d-plugin",
+    "odin-phys2d-plugin.js"
+  ],
+  "scripts": {
+    "test": "comn -f examples/test/src/index.js -o examples/test/index.js"
+  },
+  "author": "Nathan Faucett",
+  "license": "BSD-2-Clause",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-jsbeautifier": "^0.2.7"
+  },
+  "dependencies": {
+    "phys2d": "git://github.com/nathanfaucett/phys2d",
+    "odin": "git://github.com/nathanfaucett/odin"
+  }
+}
