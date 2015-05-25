@@ -8,6 +8,8 @@ var Plugin = odin.Plugin,
     Phys2DPluginPrototype;
 
 
+module.exports = Phys2DPlugin;
+
 
 function Phys2DPlugin() {
 
